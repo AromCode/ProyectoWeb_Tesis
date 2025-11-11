@@ -1,0 +1,54 @@
+/* ======== HERO SECTION ======== */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* ======== SECCIONES ======== */
+section {
+  scroll-margin-top: 70px;
+}
+
+#datos h3 {
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+/* ======== FORMULARIO ======== */
+form .btn {
+  transition: 0.3s ease;
+}
+
+form .btn:hover {
+  background-color: #0a58ca;
+  color: #fff;
+}
